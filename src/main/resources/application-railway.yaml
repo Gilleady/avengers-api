@@ -1,6 +1,4 @@
 spring:
-  profiles:
-    active: railway
   jackson:
     serialization:
       indent-output: true
