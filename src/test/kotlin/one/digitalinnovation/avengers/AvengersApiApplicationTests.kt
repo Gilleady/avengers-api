@@ -1,4 +1,4 @@
-package one.digitalinnovation.avengers.avengers_api
+package one.digitalinnovation.avengers
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

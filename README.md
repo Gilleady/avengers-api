@@ -171,7 +171,7 @@ DB_PASSWORD=dio.avenger
 DB_NAME=avengers
 ```
 
-### YAML (backend-services.yaml)
+### YAML (avenger-api-resources.yaml)
 
 ```yaml
 version: '3.2'
@@ -211,7 +211,7 @@ networks:
 
 ### Script / Comandos
 
-- `docker-compose -f backend-services.yaml up -d` (deploy) / `docker-compose -f backend-services.yaml down` (undeploy) 
+- `docker-compose -f avenger-api-resources.yaml up -d` (deploy) / `docker-compose -f avenger-api-resources.yaml down` (undeploy) 
 
 - Start API 
 ```sh
