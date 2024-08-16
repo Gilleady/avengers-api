@@ -1,1 +1,1 @@
-web: java -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap $JAVA_OPTS -Dserver.port=$PORT -Dspring.profiles.active=railway -jar target/*.jar
+web: java -XX:+UnlockExperimentalVMOptions -XX:+UseContainerSupport $JAVA_OPTS -Dserver.port=$PORT -Dspring.profiles.active=railway -jar target/*.jar
