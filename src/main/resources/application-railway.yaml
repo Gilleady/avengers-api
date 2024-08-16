@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: heroku
+    active: railway
   jackson:
     serialization:
       indent-output: true
