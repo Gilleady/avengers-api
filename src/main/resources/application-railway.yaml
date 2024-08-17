@@ -4,11 +4,6 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    # postgresql://postgres:HkSOluOIyvXKipLbXRyKGSWxrGRQduwS@roundhouse.proxy.rlwy.net:39549/railway
-    # roundhouse.proxy.rlwy.net:39549
-    # railway
-    # postgres
-    # HkSOluOIyvXKipLbXRyKGSWxrGRQduwS
     url: jdbc:postgresql://${HOST}/${DB_NAME}
     username: ${DB_USER}
     password: ${DB_PASSWORD}
